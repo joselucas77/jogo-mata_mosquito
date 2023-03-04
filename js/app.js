@@ -2,7 +2,7 @@
 var altura = 0
 var largura = 0
 var vidas = 1
-var tempo = 10
+var tempo = 15
 var nivel = window.location.search
 nivel = nivel.replace('?', '')
 var TempoCriarMosquito = 1500
@@ -56,8 +56,9 @@ function posicaoRandomica() {
     }
 
 
-    var posicaoX = Math.floor(Math.random() * altura) - 90
-    var posicaoY = Math.floor(Math.random() * largura) - 90
+    var posicaoX = Math.floor(Math.random() * largura) - 100
+    var posicaoY = Math.floor(Math.random() * altura) - 100
+
 
     //Ajustando casos de posições negativas
     posicaoX = posicaoX < 0 ? 0 : posicaoX
