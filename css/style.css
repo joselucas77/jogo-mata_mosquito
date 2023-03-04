@@ -12,7 +12,7 @@ body {
     body {
         background-image: url(../img/bg.jpg);
         background-repeat: no-repeat;
-        background-size: 200%;
+        background-size: 250%;
     }
 
     #imagemIndex {
@@ -21,9 +21,21 @@ body {
         margin-bottom: 50px;
     }
 
-    /* #options {
-        margin-top: 5em;
+    #imagemWin {
+        width: 400px;
+    }
+
+    #imagemLose {
+        width: 400px;
+    }
+
+    /* #imagemIndex {
+        max-width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     } */
+
+    
 }
 
 .mosquito1 {
